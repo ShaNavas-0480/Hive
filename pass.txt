@@ -1,0 +1,4 @@
+navas for navas
+navas123 for hduser
+
+https://dev.mysql.com/downloads/repo/apt

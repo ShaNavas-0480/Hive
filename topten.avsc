@@ -1,0 +1,43 @@
+{
+  "type" : "record",
+  "name" : "topten",
+  "doc" : "Sqoop import of topten",
+  "fields" : [ {
+    "name" : "customer_id",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "customer_id",
+    "sqlType" : "4"
+  }, {
+    "name" : "fname",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "fname",
+    "sqlType" : "12"
+  }, {
+    "name" : "lname",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "lname",
+    "sqlType" : "12"
+  }, {
+    "name" : "age",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "age",
+    "sqlType" : "4"
+  }, {
+    "name" : "profession",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "profession",
+    "sqlType" : "12"
+  }, {
+    "name" : "amount",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "amount",
+    "sqlType" : "8"
+  } ],
+  "tableName" : "topten"
+}
